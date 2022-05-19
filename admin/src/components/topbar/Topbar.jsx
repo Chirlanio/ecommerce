@@ -7,7 +7,7 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">E-commerce</span>
+          <span className="logo">E-commerce Admin</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
@@ -16,6 +16,7 @@ export default function Topbar() {
           </div>
           <div className="topbarIconContainer">
             <Language />
+            <span className="topbarIconBadge">2</span>
           </div>
           <div className="topbarIconContainer">
             <Settings />

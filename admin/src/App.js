@@ -13,6 +13,8 @@ import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
+import SalesList from "./pages/salesList/SalesList";
+import Sale from "./pages/sale/Sale";
 
 function App() {
   return (
@@ -40,6 +42,15 @@ function App() {
             <Product />
           </Route>
           <Route path="/newProduct">
+            <NewProduct />
+          </Route>
+          <Route path="/sales">
+            <SalesList />
+          </Route>
+          <Route path="/sale/:saleId">
+            <Sale />
+          </Route>
+          <Route path="/newSale">
             <NewProduct />
           </Route>
         </Switch>
